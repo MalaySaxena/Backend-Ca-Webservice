@@ -23,8 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7315ee-f13f-4525-8be8-325ac712ecb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-service/src/test/java/com/udacity/priceservice/PriceServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/price-service/src/test/java/com/udacity/priceservice/PriceServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/test/java/com/udacity/vehicles/api/CarControllerTest.java" afterDir="false" />
     </list>
@@ -64,7 +76,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Backend-Car-Service" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.CarControllerTest.createCar">
+  <component name="RunManager" selected="Application.PriceServiceApplication">
     <configuration name="PriceServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udacity.priceservice.PriceServiceApplication" />
       <module name="price-service" />
@@ -147,11 +159,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarControllerTest.createCar" />
-        <item itemvalue="JUnit.CarControllerTest" />
-        <item itemvalue="JUnit.CarControllerTest.findCar" />
-        <item itemvalue="Application.VehiclesApiApplication" />
         <item itemvalue="Application.PriceServiceApplication" />
+        <item itemvalue="Application.VehiclesApiApplication" />
+        <item itemvalue="JUnit.CarControllerTest" />
+        <item itemvalue="JUnit.CarControllerTest.createCar" />
+        <item itemvalue="JUnit.CarControllerTest.findCar" />
       </list>
     </recent_temporary>
   </component>
@@ -195,22 +207,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599888127041" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1599994444690">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599997324834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599994444690" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1599994444690">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599997324834" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599997324833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599994444690" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1599994444690">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599997324833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599997324833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599994444690" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1599994444690">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599997324833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599997324833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599994444690" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599997324833" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599994444691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

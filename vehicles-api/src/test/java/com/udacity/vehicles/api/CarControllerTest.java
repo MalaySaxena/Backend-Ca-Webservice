@@ -137,7 +137,7 @@ public class CarControllerTest {
          *   should utilize the car from `getCar()` below.
          */
         mvc.perform(delete(new URI("/cars/1")))
-                .andExpect(status().isOk());
+                .andExpect(status().is2xxSuccessful());
     }
 
     /**
