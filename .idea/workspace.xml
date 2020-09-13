@@ -25,11 +25,10 @@
     <list default="true" id="2c7315ee-f13f-4525-8be8-325ac712ecb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/api/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boogle-maps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boogle-maps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/price-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/price-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/PriceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/client/prices/PriceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/java/com/udacity/vehicles/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +63,25 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Backend-Car-Service" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.VehiclesApiApplication">
+  <component name="RunManager" selected="Application.PriceServiceApplication">
+    <configuration name="BoogleMapsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.udacity.boogle.maps.BoogleMapsApplication" />
+      <module name="boogle-maps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.boogle.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.udacity.eureka.EurekaApplication" />
       <module name="eureka" />
@@ -89,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udacity.priceservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PricingServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udacity.pricing.PricingServiceApplication" />
-      <module name="pricing-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udacity.pricing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,17 +139,17 @@
     <list>
       <item itemvalue="Application.EurekaApplication" />
       <item itemvalue="Application.PriceServiceApplication" />
-      <item itemvalue="Application.PricingServiceApplication" />
       <item itemvalue="Application.VehiclesApiApplication" />
+      <item itemvalue="Application.BoogleMapsApplication" />
       <item itemvalue="JUnit.PriceServiceApplicationTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.VehiclesApiApplication" />
-        <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="Application.PriceServiceApplication" />
+        <item itemvalue="Application.BoogleMapsApplication" />
+        <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="JUnit.PriceServiceApplicationTests" />
-        <item itemvalue="Application.PricingServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -178,34 +177,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599842978959">
+    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599983591325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599842978959" />
+    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599983591325" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1599838410936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599838410936" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599842967819">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599888127041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599842967819" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599843159099">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599888127041" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599985037397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599843159099" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599843159099">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599985037397" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599985037396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599843159099" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599843159098">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599985037396" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599985037396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599843159098" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599843159099">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599985037395" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599985037396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599843159099" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1599985037396" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599117340366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
