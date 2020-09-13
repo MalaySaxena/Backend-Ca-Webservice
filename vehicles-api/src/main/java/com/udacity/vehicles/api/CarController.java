@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/cars")
-class CarController {
+public class CarController {
 
     private final CarService carService;
     private final CarResourceAssembler assembler;

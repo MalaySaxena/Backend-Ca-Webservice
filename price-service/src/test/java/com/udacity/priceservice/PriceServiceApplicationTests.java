@@ -19,6 +19,7 @@ class PriceServiceApplicationTests {
 	@Autowired
 	private MockMvc mockMvc;
 
+	//Unit Tests
 	@Test
 	public void testAllPrices() throws Exception {
 		mockMvc.perform(get("/prices"))
