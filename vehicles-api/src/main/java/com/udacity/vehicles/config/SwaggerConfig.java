@@ -27,14 +27,16 @@ public class SwaggerConfig {
                 .useDefaultResponseMessages(false);
     }
 
-    private ApiInfo apiInfo() {
-        return new ApiInfo(
-                "Vehicles API",
-                "This API returns a list of vehicles details.",
+    private ApiInfo apiInformation() {
+        return new ApiInfo("Vehicle REST API",
+                "Manage Vehicles",
                 "1.0",
-                "http://www.udacity.com/tos",
-                new Contact("Udacity", "www.udacity.com", "myeaddress@udacity.com"),
-                "License of API", "http://www.udacity.com/license", Collections.emptyList());
+                "API Terms of Service URL",
+                new Contact("Udacity", "www.udacity.com", "coder.udacity@gmail.com"),
+                "API License",
+                "API License URL",
+                Collections.emptyList()
+        );
     }
 
 }

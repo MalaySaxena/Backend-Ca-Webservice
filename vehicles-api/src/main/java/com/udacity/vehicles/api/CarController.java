@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.Valid;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.hateoas.Resource;
@@ -50,6 +52,7 @@ public class CarController {
      * Creates a list to store any vehicles.
      * @return list of vehicles
      */
+    @ApiOperation(value = "View list of all vehicles")
     @GetMapping
     Resources<Resource<Car>> list() {
         List<Resource<Car>> resources = carService.list().stream().map(assembler::toResource)
@@ -63,6 +66,7 @@ public class CarController {
      * @param id the id number of the given vehicle
      * @return all information for the requested vehicle
      */
+    @ApiOperation(value = "View vehicle with ID")
     @GetMapping("/{id}")
     Resource<Car> get(@PathVariable Long id) {
         /**
@@ -80,6 +84,7 @@ public class CarController {
      * @return response that the new vehicle was added to the system
      * @throws URISyntaxException if the request contains invalid fields or syntax
      */
+    @ApiOperation(value = "Add a vehicle")
     @PostMapping
     ResponseEntity<Resource<Car>> post(@Valid @RequestBody Car car) throws URISyntaxException {
         /**
@@ -99,6 +104,7 @@ public class CarController {
      * @param car The updated information about the related vehicle.
      * @return response that the vehicle was updated in the system
      */
+    @ApiOperation(value = "Update a vehicles")
     @PutMapping("/{id}")
     ResponseEntity<?> put(@PathVariable Long id, @Valid @RequestBody Car car) {
         /**
@@ -118,6 +124,7 @@ public class CarController {
      * @param id The ID number of the vehicle to remove.
      * @return response that the related vehicle is no longer in the system
      */
+    @ApiOperation(value = "Delete a vehicles")
     @DeleteMapping("/{id}")
     ResponseEntity<?> delete(@PathVariable Long id) {
         /**

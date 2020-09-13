@@ -51,9 +51,6 @@ public class CarControllerTest {
     @Autowired
     private JacksonTester<Car> jsonCar;
 
-    @Autowired
-    private JacksonTester<Details> jsonDetails;
-
     @MockBean
     private CarService carService;
 
@@ -100,7 +97,18 @@ public class CarControllerTest {
          *   the whole list of vehicles. This should utilize the car from `getCar()`
          *   below (the vehicle will be the first in the list).
          */
+        Car car = getCar();
 
+        mvc.perform(get(new URI("/cars")))
+                .andExpect(content().contentType("application/hal+json;charset=UTF-8"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$._embedded.carList[0].id")
+                        .value("1"))
+                .andExpect(jsonPath("$._embedded.carList[0].details.model")
+                        .value(car.getDetails().getModel()))
+                .andExpect(jsonPath("$._embedded.carList[0]._links.self.href")
+                        .value("http://localhost/cars/1"))
+                .andExpect(jsonPath("$._links.self.href").value("http://localhost/cars"));
 
     }
 
@@ -119,10 +127,14 @@ public class CarControllerTest {
         mvc.perform(get(new URI("/cars/1")))
                 .andExpect(content().contentType("application/hal+json;charset=UTF-8"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value("1"))
-                .andExpect(jsonPath("$['details']").value(jsonDetails.write(car.getDetails()).getJson()))
-                .andExpect(jsonPath("$._links.self.href").value("http://localhost/cars/1"))
-                .andExpect(jsonPath("$._links.self.cars").value("http://localhost/cars"));
+                .andExpect(jsonPath("$.id")
+                        .value("1"))
+                .andExpect(jsonPath("$.details.model")
+                        .value(car.getDetails().getModel()))
+                .andExpect(jsonPath("$._links.self.href")
+                        .value("http://localhost/cars/1"))
+                .andExpect(jsonPath("$._links.cars.href")
+                        .value("http://localhost/cars"));
     }
 
     /**
