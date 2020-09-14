@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.NoSuchElementException;
+
 @RestController
 public class PriceController {
 
@@ -21,7 +23,7 @@ public class PriceController {
     @GetMapping("/services/price")
     public Price get(@RequestParam Long vehicleId){
         try{
-            return pricingService.getPrice(vehicleId).orElseThrow();
+            return pricingService.getPrice(vehicleId);
         }catch (PriceException e){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Price Not Found", e);
         }

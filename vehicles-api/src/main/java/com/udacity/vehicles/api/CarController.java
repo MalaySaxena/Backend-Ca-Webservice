@@ -94,7 +94,7 @@ public class CarController {
          */
         Car savedcar = carService.save(car);
         Resource<Car> resource = assembler.toResource(savedcar);
-
+        System.out.println(savedcar.getPrice());
         return ResponseEntity.created(new URI(resource.getId().expand().getHref())).body(resource);
     }
 

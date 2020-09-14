@@ -37,13 +37,13 @@ public class PricingService implements ApplicationRunner {
      * @return price of the requested vehicle
      * @throws PriceException vehicleID was not found
      */
-    public Optional<Price> getPrice(Long vehicleId) throws PriceException {
+    public Price getPrice(Long vehicleId) throws PriceException {
 
-        if (priceRepository.findById(vehicleId) == null) {
+        if (priceRepository.findById(vehicleId).isEmpty()) {
             throw new PriceException("Cannot find price for Vehicle " + vehicleId);
         }
 
-        return priceRepository.findById(vehicleId);
+        return priceRepository.findById(vehicleId).get();
     }
 
     /**
